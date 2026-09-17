@@ -7,7 +7,7 @@ package Pertemuan1;
 
 /**
  *
- * @author lkb104
+ * @author Christian Suwondo
  */
 public class pegawai {
     String Nama_Pegawai;

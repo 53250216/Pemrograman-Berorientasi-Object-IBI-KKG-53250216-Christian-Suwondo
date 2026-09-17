@@ -13,10 +13,10 @@ import java.util.Scanner;
 public class SalamKenal {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+        //input
         System.out.println("Input Nama Anda = ");
         String nama = input.nextLine();
-        
+        //output
         System.out.println("Hallo, Salam Kenal Mas " + nama + "!");
     }
 }

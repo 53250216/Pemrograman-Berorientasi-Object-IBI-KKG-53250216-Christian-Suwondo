@@ -9,13 +9,15 @@ package Pertemuan_2;
 /**
  * @author Christian Suwondo 53250216
  */
-public class MobilBeraksi {
+public class manusiaBeraksi {
     public static void main(String[] args) {
-        Mobil mobilku = new Mobil();
+        manusia dataSaya = new manusia();
         
-        mobilku.warna = "Hijau";
-        mobilku.tahunProduksi = 2006;
+        dataSaya.nama = "Christian";
+        dataSaya.jenisKelamin = "Laki-Laki";
+        dataSaya.alamat = "JL. Panda Lestari Blok I 2 No 46";
+        dataSaya.usia = 19;
         
-        mobilku.printMobil();
+        dataSaya.getPrint();
     }
 }

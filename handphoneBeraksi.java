@@ -9,12 +9,13 @@ package Pertemuan_2;
 /**
  * @author Christian Suwondo 53250216
  */
-public class Mobil {
-    String warna;
-    int tahunProduksi;
-    
-    void printMobil() {
-        System.out.println("Warna: " + warna);
-        System.out.println("Tahun: " + tahunProduksi);
+public class handphoneBeraksi {
+    public static void main(String[] args) {
+        handphone hp = new handphone();
+        
+        hp.hidupkan();
+        hp.lakukanPanggilan();
+        hp.kirimSMS();
+        hp.matikan();
     }
 }

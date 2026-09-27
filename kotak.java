@@ -9,12 +9,6 @@ package Pertemuan_2;
 /**
  * @author Christian Suwondo 53250216
  */
-public class Mobil {
-    String warna;
-    int tahunProduksi;
-    
-    void printMobil() {
-        System.out.println("Warna: " + warna);
-        System.out.println("Tahun: " + tahunProduksi);
-    }
+public class kotak {
+    double panjang, lebar, tinggi;
 }

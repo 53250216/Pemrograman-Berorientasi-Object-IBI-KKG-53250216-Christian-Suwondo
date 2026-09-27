@@ -9,12 +9,12 @@ package Pertemuan_2;
 /**
  * @author Christian Suwondo 53250216
  */
-public class Mobil {
-    String warna;
-    int tahunProduksi;
-    
-    void printMobil() {
-        System.out.println("Warna: " + warna);
-        System.out.println("Tahun: " + tahunProduksi);
+public class lingkaranBeraksi {
+    public static void main(String[] args) {
+        lingkaran lingkar = new lingkaran();
+        
+        lingkar.r = 6;
+        
+        lingkar.hitungKeliling();
     }
 }

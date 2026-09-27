@@ -18,3 +18,4 @@ public class Mobil {
         System.out.println("Tahun: " + tahunProduksi);
     }
 }
+ 

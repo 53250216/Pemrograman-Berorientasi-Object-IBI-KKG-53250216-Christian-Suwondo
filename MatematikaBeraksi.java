@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pertemuan1;
+package Pertemuan3;
 
 /**
  *
  * @author Christian Suwondo
  */
-public class Welcome2 {
+public class MatematikaBeraksi {
     public static void main(String[] args) {
-        System.out.println("Object");
-        System.out.println("Berorietasi");
-        System.out.println("Pemrograman");
-        System.out.println("Bahasa");
+        Matematika mtk = new Matematika();
+        
+        mtk.pertambahan(15, 15);
+        mtk.pengurangan(15, 15);
+        mtk.perkalian(5, 15);
+        mtk.pembagian(15, 1);
     }
+    
 }

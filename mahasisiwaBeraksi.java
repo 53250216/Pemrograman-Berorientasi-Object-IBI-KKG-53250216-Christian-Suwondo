@@ -3,14 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Pertemuan1;
+package Pertemuan3;
 
 /**
  *
- * @author Christian Suwondo
+ * @author Christian Suwondo 535250216
  */
-public class Welcome {
+public class mahasisiwaBeraksi {
     public static void main(String[] args) {
-     System.out.println("Bahasa \nPemrograman \nObject \nBerorientasi");
+        mahasiswa mhs = new mahasiswa();
+        
+        mhs.mhsGenius();
+        System.out.println("");
+        mhs.mhsPintar();
     }
 }
